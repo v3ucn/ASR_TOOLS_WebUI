@@ -6,7 +6,7 @@ from .stdout_wrapper import SAFE_STDOUT
 
 
 #python = ".\\venv\\python.exe"
-python = "python3"
+python = sys.executable
 
 print(python)
 
